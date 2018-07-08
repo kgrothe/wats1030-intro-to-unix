@@ -86,11 +86,11 @@ and then clone it to your development environment.
 
 * Run `ps aux` and review the results. (Hint: Use `man` to learn more about the `ps` command and options.) *How do you interpret what you see here?*
 
->PS = "process status". This is a report of current processes running. 
->The "a" displays all users, 
->"u" displays user  column in output, 
->"x" displays processes not executed from any terminal. 
->I'm seeing "user" (me) and "root" in the USER column. 
+>PS = "process status". This is a report of current processes running. The "a" displays all users, 
+"u" displays user  column in output, 
+"x" displays processes not executed from any terminal. 
+
+I'm seeing "user" (me) and "root" in the USER column. 
 
 * Run `top` and review the results. (Hint: You may need to use `ctrl-c` to get out of this app.) *How do you interpret what you see here?*
 

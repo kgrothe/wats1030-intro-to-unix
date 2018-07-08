@@ -45,7 +45,7 @@ and then clone it to your development environment.
 
 * Commands can also take *arguments*, which are usually the names of files or locations that you want the command to work with. Try running `ls /` to see what files are in the *root* directory of the filesystem. *What files and directories do you see listed?*
 
-  bin  boot  dev  etc  home  lib  lib64  media  mnt  open-jdk-source-file-location  opt  proc  projects  root  run  sbin  srv  sys  tmp  usr  var
+>bin  boot  dev  etc  home  lib  lib64  media  mnt  open-jdk-source-file-location  opt  proc  projects  root  run  sbin  srv  sys  tmp  usr  var
      
 
 * A Unix filesystem has a few special shortcuts to refer to specific locations. `/` indicates the *root* of the filesystem, meaning the top-most directory in the filesystem hierarchy. Use the `cd` ("change directory") command to move to the root directory. (Hint: Use `man` to look up the `cd` command if you have any issues) *Then run `pwd` and paste the output here:*
@@ -58,7 +58,7 @@ and then clone it to your development environment.
 
 * Change directory into the `challenge_files` directory. Use `ls` to find only the files with a `.demo` pattern. *How many files do you find?*
 
->3 (2015_special_stuff.demo  cloaked-wookie.demo  scooter-double-mamba.demo)
+>3 (2015_special_stuff.demo,  cloaked-wookie.demo,  scooter-double-mamba.demo)
 
 * Use the `cd` command to move "up" one directory. *Where are you in the filesystem now?*
 
@@ -98,7 +98,7 @@ and then clone it to your development environment.
 "u" displays user  column in output, 
 "x" displays processes not executed from any terminal. <br>
 
-I'm seeing "user" (me) and "root" in the USER column. 
+>I'm seeing "user" (me) and "root" in the USER column. 
 
 * Run `top` and review the results. (Hint: You may need to use `ctrl-c` to get out of this app.) *How do you interpret what you see here?*
 
@@ -108,7 +108,9 @@ I'm seeing "user" (me) and "root" in the USER column.
 
 * Make sure you are in the `challenge_files` directory. Use the `*` wildcard to find all the files that have the word "credit" in the filename. *How many files did you find?*
 
->2 (credit_cards2.txt  credit_cards.txt)
+>2
+*credit_cards2.txt
+*credit_cards.txt
 
 * Use the `more` command to view one of the `credit_cards` files you just discovered. (Hint: Type `q` to quit viewing the file. Press the `spacebar` to page down. Use your keyboard arrows to move up/down.) *What is the date in the file you have viewed?*
 

@@ -125,8 +125,9 @@ and then clone it to your development environment.
 
 * Use the `grep` command to search for text within a file. Use `grep` on all the `.user` files in `challenge_files` to find which files contain "WA" (the abbreviation for Washington state). *How many files did you find?*
 
->2 -
->Britt-Erdman.user                                                                                                                >Lissie-Strosin.user
+>2:
+>* Britt-Erdman.user
+>* Lissie-Strosin.user
 
 
 * Use the `-r` option of `grep` to *recursively* find the text "Waldo" hidden in a file somewhere under the `challenge_files` directory. *Paste the result showing the file and line where the word "Waldo" shows up.*

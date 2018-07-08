@@ -58,7 +58,10 @@ and then clone it to your development environment.
 
 * Change directory into the `challenge_files` directory. Use `ls` to find only the files with a `.demo` pattern. *How many files do you find?*
 
->3 (2015_special_stuff.demo,  cloaked-wookie.demo,  scooter-double-mamba.demo)
+>3 
+>* 2015_special_stuff.demo
+>* cloaked-wookie.demo
+>* scooter-double-mamba.demo
 
 * Use the `cd` command to move "up" one directory. *Where are you in the filesystem now?*
 
@@ -109,9 +112,8 @@ and then clone it to your development environment.
 * Make sure you are in the `challenge_files` directory. Use the `*` wildcard to find all the files that have the word "credit" in the filename. *How many files did you find?*
 
 >2
-
-* credit_cards2.txt
-* credit_cards.txt
+>* credit_cards2.txt
+>* credit_cards.txt
 
 * Use the `more` command to view one of the `credit_cards` files you just discovered. (Hint: Type `q` to quit viewing the file. Press the `spacebar` to page down. Use your keyboard arrows to move up/down.) *What is the date in the file you have viewed?*
 

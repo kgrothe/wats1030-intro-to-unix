@@ -148,5 +148,7 @@ and then clone it to your development environment.
 * Earlier, when you viewed the list of active processes on your devbox using `ps aux`, the list was probably really long. You can make this list more manageable by using the pipe (`|`) to filter the results of `ps` using `grep`. Run `ps aux | grep <your_username>` to see what processes are running for your specific user. *Paste the list of processes that reference your username here:*
 
 
-user         1  0.0  0.0   4500   640 ?        Ss   20:10   0:00 /bin/sh -c tail -f /dev/null                                                                                      user        26  0.0  0.0   6036   624 ?        S    20:10   0:00 tail -f /dev/null                                                                                                 user        31  0.0  0.0   4508   748 ?        Ss   20:10   0:00 /bin/sh -c trap
+>user         1  0.0  0.0   4500   640 ?        Ss   20:10   0:00 /bin/sh -c tail -f /dev/null
+>user        26  0.0  0.0   6036   624 ?        S    20:10   0:00 tail -f /dev/null
+>user        31  0.0  0.0   4508   748 ?        Ss   20:10   0:00 /bin/sh -c trap
  

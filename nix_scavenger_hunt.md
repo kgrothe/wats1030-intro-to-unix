@@ -109,8 +109,9 @@ and then clone it to your development environment.
 * Make sure you are in the `challenge_files` directory. Use the `*` wildcard to find all the files that have the word "credit" in the filename. *How many files did you find?*
 
 >2
-*credit_cards2.txt
-*credit_cards.txt
+
+* credit_cards2.txt
+* credit_cards.txt
 
 * Use the `more` command to view one of the `credit_cards` files you just discovered. (Hint: Type `q` to quit viewing the file. Press the `spacebar` to page down. Use your keyboard arrows to move up/down.) *What is the date in the file you have viewed?*
 

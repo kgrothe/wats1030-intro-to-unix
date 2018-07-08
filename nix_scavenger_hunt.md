@@ -88,7 +88,7 @@ and then clone it to your development environment.
 
 >PS = "process status". This is a report of current processes running. The "a" displays all users, 
 "u" displays user  column in output, 
-"x" displays processes not executed from any terminal. 
+"x" displays processes not executed from any terminal. <br>
 
 I'm seeing "user" (me) and "root" in the USER column. 
 

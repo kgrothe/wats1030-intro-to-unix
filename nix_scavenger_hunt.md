@@ -25,13 +25,13 @@ and then clone it to your development environment.
 * You can use *options* to modify how a command runs. Try using `ls -alh` to see the contents of your current directory. *How are the results different when you use the `-alh` options?*
 
 >total 0
+```
+drwxr-xr-x  3 user root  36 Jul  5 13:19 .
 
->drwxr-xr-x  3 user root  36 Jul  5 13:19 .
+drwxr-xr-x 22 root root 295 Jul  8 21:08 ..
 
->drwxr-xr-x 22 root root 295 Jul  8 21:08 ..
-
->drwxr-xr-x  5 user root 178 Jul  5 13:19 wats1030-intro-to-unix
-
+drwxr-xr-x  5 user root 178 Jul  5 13:19 wats1030-intro-to-unix
+```
 
 
 * The `man` ("manual") command tells you more about how any given command works. (*WARNING:* CodeAnywhere does not support the man command. You can click the following link to complete this task: http://man.he.net/). Run `man` to see instructions about how to use `man`. Then use `man` to learn what the `a`, `l`, and `h` options mean when used with the `ls` command. *Write down what those options do?*
@@ -131,9 +131,9 @@ and then clone it to your development environment.
 
 
 * Use the `-r` option of `grep` to *recursively* find the text "Waldo" hidden in a file somewhere under the `challenge_files` directory. *Paste the result showing the file and line where the word "Waldo" shows up.*
-
->serial-numbers/eaque_molestiae.txt:Ut est maiores quia autem. Nisi modi Waldo sed corporis sit explicabo ut est. Et est placeat ea sunt sunt consectetur sunt incidunt. Explicabo vel esse blanditiis dolorem culpa non quia.
-
+```
+serial-numbers/eaque_molestiae.txt:Ut est maiores quia autem. Nisi modi Waldo sed corporis sit explicabo ut est. Et est placeat ea sunt sunt consectetur sunt incidunt. Explicabo vel esse blanditiis dolorem culpa non quia.
+```
 
 ### Pipes and Connecting Commands
 
@@ -147,10 +147,10 @@ and then clone it to your development environment.
 
 * Earlier, when you viewed the list of active processes on your devbox using `ps aux`, the list was probably really long. You can make this list more manageable by using the pipe (`|`) to filter the results of `ps` using `grep`. Run `ps aux | grep <your_username>` to see what processes are running for your specific user. *Paste the list of processes that reference your username here:*
 
+```
+user         1  0.0  0.0   4500   640 ?        Ss   20:10   0:00 /bin/sh -c tail -f /dev/null
 
->user         1  0.0  0.0   4500   640 ?        Ss   20:10   0:00 /bin/sh -c tail -f /dev/null
+user        26  0.0  0.0   6036   624 ?        S    20:10   0:00 tail -f /dev/null
 
->user        26  0.0  0.0   6036   624 ?        S    20:10   0:00 tail -f /dev/null
-
->user        31  0.0  0.0   4508   748 ?        Ss   20:10   0:00 /bin/sh -c trap
- 
+user        31  0.0  0.0   4508   748 ?        Ss   20:10   0:00 /bin/sh -c trap
+``` 
